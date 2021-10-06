@@ -139,20 +139,29 @@ const NavLinks = styled.ul`
 `;
 
 const Link = styled.a`
-  font-size: 15px;
+  font-size: 18px;
   line-height: 30px;
   color: ${palette["dark-gray"]};
+  &:hover {
+    color: ${palette["orange"]};
+  }
 `;
 
 const JoinTapsi = styled.div`
-  background: ${palette["orange"]};
+  background: ${palette["orange"] + "f4"};
+  transform: scale(1.01);
   border-radius: 8px;
   padding: 8px 40px;
   margin-right: 25px;
   top: 7px;
   display: block;
+  font-size: 20px;
   a {
     color: ${palette["white"]};
+  }
+  &:hover {
+    transform: scale(1);
+    background: ${palette["orange"]};
   }
 
   @media (max-width: 990px) {

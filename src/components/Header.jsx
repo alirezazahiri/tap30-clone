@@ -110,6 +110,7 @@ const BoxContainer = styled.div`
   background-color: rgba(0, 0, 40, 0.4);
   border-radius: 20px;
   margin-right: 20px;
+  margin-bottom: 10%;
   h1 {
     font-size: 50px;
     font-weight: 500;
@@ -121,7 +122,11 @@ const BoxContainer = styled.div`
   }
 
   @media (max-width: 990px) {
-    margin: 50px auto;
+    width: 100%;
+    margin: auto 20% 10%;
+  }
+  @media (max-width: 480px) {
+    margin: auto auto 10%;
   }
 `;
 
@@ -160,7 +165,7 @@ const Buttons = styled.div`
     }
   }
   .driver-btn {
-    background: #000;
+    background: rgba(0, 0, 40, 0.7);
     a {
       color: #fff;
     }
