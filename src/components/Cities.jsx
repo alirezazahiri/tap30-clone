@@ -30,8 +30,14 @@ const Container = styled.div`
   .cities {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
     p {
       font-size: 20px;
+      letter-spacing: 1px;
     }
     @media (max-width: 990px) {
       grid-template-columns: repeat(6, 1fr);

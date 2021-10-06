@@ -6,88 +6,88 @@ const cities = [
     },
     {
         id: "2",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "کرج",
+        en: "Karaj"
     },
     {
         id: "3",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "مشهد",
+        en: "Mashhad"
     },
     {
         id: "4",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "اصفهان",
+        en: "Esfahan"
     },
     {
         id: "5",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "شیراز",
+        en: "Shiraz"
     },
     {
         id: "6",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "ارومیه",
+        en: "Urmia"
     },
     {
         id: "7",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "لاهیجان",
+        en: "Lahijan"
     },
     {
         id: "8",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "رشت",
+        en: "Rasht"
     },
     {
         id: "9",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "انزلی",
+        en: "Anzali"
     },
     {
         id: "10",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "تبریز",
+        en: "Tabriz"
     },
     {
         id: "11",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "ساری",
+        en: "Sari"
     },
     {
         id: "12",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "یزد",
+        en: "Yazd"
     },
     {
         id: "13",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "کرمان",
+        en: "Kerman"
     },
     {
         id: "14",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "قم",
+        en: "Qom"
     },
     {
         id: "15",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "اهواز",
+        en: "Ahvaz"
     },
     {
         id: "16",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "بابل",
+        en: "Babol"
     },
     {
         id: "17",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "قائم‌شهر",
+        en: "Qaem Shahr"
     },
     {
         id: "18",
-        ir: "تهران",
-        en: "Tehran"
+        ir: "آمل",
+        en: "Amol"
     },
 ]
 

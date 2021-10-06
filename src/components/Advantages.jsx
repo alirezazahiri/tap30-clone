@@ -62,11 +62,16 @@ const Content = styled.div`
   h1 {
     font-size: 30px;
   }
+  p {
+    font-size: 18px;
+  }
   h3 {
     font-size: 22px;
+    margin-top: 30px;
   }
   li {
     font-size: 20px;
+    line-height: 40px;
   }
   @media (max-width: 768px) {
     width: 100%;
@@ -84,6 +89,7 @@ const ButtonsContainer = styled.div`
     width: fit-content;
     border-radius: 8px;
     margin-left: 10px;
+    font-size: 20px;
   }
   @media (max-width: 990px) {
     flex-direction: column;

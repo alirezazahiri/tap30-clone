@@ -11,6 +11,7 @@ import BuyCard from "./BuyCard";
 import Parallax from "./Parallax";
 import Advantages from "./Advantages";
 import Cities from "./Cities";
+import Footer from "./Footer";
 
 const Landing = () => {
   return (
@@ -25,6 +26,7 @@ const Landing = () => {
       <Parallax />
       <Advantages />
       <Cities />
+      <Footer />
     </div>
   );
 };

@@ -90,8 +90,7 @@ const Content = styled.div`
     left: 0;
     top: 0;
     width: 100%;
-    height: calc(100vh - 61px - 220px);
-    -o-object-fit: cover;
+    height: calc(100vh - 61px);
     object-fit: cover;
   }
 `;
@@ -99,26 +98,31 @@ const Content = styled.div`
 const BoxContainer = styled.div`
   box-shadow: 0 0 15px rgba(0, 0, 255, 0.2);
   border: 1px solid rgba(0, 0, 255, 0.2);
-  padding-bottom: 20px;
-  width: 40%;
-  height: fit-content;
   background-color: rgba(0, 0, 40, 0.4);
+  width: 50%;
+  height: fit-content;
+  padding-bottom: 20px;
   border-radius: 20px;
   margin-right: 20px;
-  margin-bottom: 10%;
   h1 {
     font-size: 50px;
     font-weight: 500;
     color: white;
   }
   h2 {
-    font-size: 18px;
+    font-size: 22px;
     color: white;
   }
 
   @media (max-width: 990px) {
     width: 100%;
-    margin: 20% 20% 10%;
+    margin: 0 5% 10%;
+    h1 {
+      font-size: 35px;
+    }
+    h2 {
+      font-size: 16px;
+    }
   }
 `;
 
