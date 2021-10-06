@@ -32,16 +32,18 @@ const BusinessServices = () => {
 };
 
 const Container = styled.div`
+  padding: 80px 0;
   margin: 40px 60px 0;
   h1 {
     font-size: 40px;
   }
   display: flex;
+  flex-direction: row-reverse;
   div {
     width: 50%;
   }
   p {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .more-info {
@@ -78,7 +80,7 @@ const Container = styled.div`
 `;
 
 const IMac = styled.img`
-  width: 50%;
+  width: 40%;
   @media (max-width: 768px) {
     width: 100%;
   }
