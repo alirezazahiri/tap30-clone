@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <Container>
       <h1>سرویس‌های تپسی</h1>
-      <ScrollerTabs setIdx={setIdx} />
+      <ScrollerTabs />
     </Container>
   );
 };
