@@ -14,44 +14,52 @@ const Navbar = () => {
     setOpen((prev) => !prev);
   };
 
-  console.log(open);
   return (
-    <Nav>
-      <a href="#">
-        <img src={tap30} alt="logo" />
-      </a>
-      <NavLinkContainer>
-        <NavLinks className={open && "nav-links-active"}>
-          <li>
-            <Link>وبلاگ</Link>
-          </li>
-          <li>
-            <Link>فرصت‌های شغلی</Link>
-          </li>
-          <li>
-            <Link>خدمات کسب‌وکارها</Link>
-          </li>
-          <li>
-            <Link>پشتیبانی</Link>
-          </li>
-        </NavLinks>
-        <JoinTapsi>
-          <a href="#">دانلود تپسی</a>
-        </JoinTapsi>
-      </NavLinkContainer>
-      <Hamburger className={open && "burger-active"} onClick={toggleHamburger}>
-        <span className="bar1"></span>
-        <span className="bar2"></span>
-        <span className="bar3"></span>
-      </Hamburger>
-    </Nav>
+    <Container>
+      <Nav>
+        <a href="#">
+          <img src={tap30} alt="logo" />
+        </a>
+        <NavLinkContainer>
+          <NavLinks className={open && "nav-links-active"}>
+            <li>
+              <Link>وبلاگ</Link>
+            </li>
+            <li>
+              <Link>فرصت‌های شغلی</Link>
+            </li>
+            <li>
+              <Link>خدمات کسب‌وکارها</Link>
+            </li>
+            <li>
+              <Link>پشتیبانی</Link>
+            </li>
+          </NavLinks>
+          <JoinTapsi>
+            <a href="#">دانلود تپسی</a>
+          </JoinTapsi>
+        </NavLinkContainer>
+        <Hamburger
+          className={open && "burger-active"}
+          onClick={toggleHamburger}
+        >
+          <span className="bar1"></span>
+          <span className="bar2"></span>
+          <span className="bar3"></span>
+        </Hamburger>
+      </Nav>
+    </Container>
   );
 };
+
+const Container = styled.header`
+  height: 60px;
+  display: block;
+`;
 
 const Nav = styled.nav`
   display: flex;
   align-items: center;
-  height: 60px;
 
   background-color: ${palette["white"]};
   position: fixed;
@@ -90,7 +98,7 @@ const NavLinkContainer = styled.div`
   .nav-links-active {
     display: flex;
     li {
-      padding: 5px;
+      margin-left: 30px;
     }
   }
 `;
@@ -113,7 +121,7 @@ const NavLinks = styled.ul`
 
   @media (max-width: 767px) {
     position: fixed;
-    top: 60px;
+    top: 40px;
     left: 0;
     display: none;
     -webkit-box-orient: vertical;
@@ -123,7 +131,7 @@ const NavLinks = styled.ul`
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-    background-color: #fff;
+    background-color: ${palette["white"]};
     width: 100%;
     -webkit-box-shadow: 0 10px 27px rgb(0 0 0 / 5%);
     box-shadow: 0 10px 27px rgb(0 0 0 / 5%);
@@ -139,7 +147,7 @@ const Link = styled.a`
 const JoinTapsi = styled.div`
   background: ${palette["orange"]};
   border-radius: 8px;
-  padding: 7px 40px;
+  padding: 8px 40px;
   margin-right: 25px;
   top: 7px;
   display: block;
