@@ -1,5 +1,4 @@
 import React from "react";
-import Skeleton from "react-loading-skeleton";
 
 // react-tabs
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";

@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 
 // style
 import styled from "styled-components";
-import ScrollerTabs from './ScrollerTabs';
+import ScrollerTabs from "./ScrollerTabs";
 
 const Services = () => {
-  const [idx, setIdx] = useState(0);
   return (
     <Container>
       <h1>سرویس‌های تپسی</h1>
