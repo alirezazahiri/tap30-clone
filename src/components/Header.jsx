@@ -62,20 +62,15 @@ const Header = () => {
 };
 
 const Container = styled.section`
-  position: absolute;
-  left: 0;
-  top: 0;
   width: 100%;
   height: calc(100vh - 61px);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
+  @media (max-width: 768px) {
+    width: 100%;
+    padding-bottom: 0;
+  }
 `;
 
 const Phone = styled.img`
@@ -106,7 +101,7 @@ const BoxContainer = styled.div`
   border: 1px solid rgba(0, 0, 255, 0.2);
   padding-bottom: 20px;
   width: 40%;
-  height: auto;
+  height: fit-content;
   background-color: rgba(0, 0, 40, 0.4);
   border-radius: 20px;
   margin-right: 20px;
@@ -123,15 +118,12 @@ const BoxContainer = styled.div`
 
   @media (max-width: 990px) {
     width: 100%;
-    margin: auto 20% 10%;
-  }
-  @media (max-width: 480px) {
-    margin: auto auto 10%;
+    margin: 20% 20% 10%;
   }
 `;
 
 const Title = styled.div`
-  padding: 50px;
+  padding: 10px 50px;
 `;
 
 const Buttons = styled.div`
@@ -145,7 +137,7 @@ const Buttons = styled.div`
   div {
     margin: 0 20px;
     border: 1px solid white;
-    padding: 20px;
+    padding: 0 20px;
     border-radius: 14px;
     font-size: 20px;
     a {
