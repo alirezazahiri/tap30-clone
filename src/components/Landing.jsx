@@ -6,6 +6,11 @@ import styled from "styled-components"
 import Navbar from "./Navbar";
 import Header from "./Header";
 import Services from "./Services";
+import BusinessServices from "./BusinessServices";
+import BuyCard from "./BuyCard";
+import Parallax from "./Parallax";
+import Advantages from "./Advantages";
+import Cities from "./Cities";
 
 const Landing = () => {
   return (
@@ -14,6 +19,12 @@ const Landing = () => {
       <Header />
       <Services />
       <HR />
+      <BusinessServices />
+      <HR />
+      <BuyCard />
+      <Parallax />
+      <Advantages />
+      <Cities />
     </div>
   );
 };
