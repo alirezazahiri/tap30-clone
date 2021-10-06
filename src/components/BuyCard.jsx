@@ -29,7 +29,6 @@ const BuyCard = () => {
 };
 
 const Container = styled.div`
-  padding: 80px 0;
   margin: 40px 60px 0;
   h1 {
     font-size: 40px;
@@ -39,7 +38,7 @@ const Container = styled.div`
     width: 50%;
   }
   p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .join-panel {
@@ -68,7 +67,7 @@ const Container = styled.div`
 `;
 
 const Macbook = styled.img`
-  width: 40%;
+  width: 50%;
   @media (max-width: 768px) {
     width: 100%;
   }
